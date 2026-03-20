@@ -1,0 +1,21 @@
+{
+  "name": "title2kebab-cli",
+  "version": "1.0.0",
+  "description": "Convert Title Case strings to kebab-case from the command line. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "title2kebab": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js \"Hello World\" && echo ok"
+  },
+  "keywords": ["title-case", "kebab-case", "convert", "string", "cli", "case"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/title2kebab-cli"
+  },
+  "homepage": "https://github.com/kszongic/title2kebab-cli#readme",
+  "funding": "https://github.com/sponsors/kszongic"
+}
